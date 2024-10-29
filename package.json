@@ -11,7 +11,7 @@
     "start": "nodemon --watch webpack.common.cjs --watch webpack.dev.cjs --watch webpack.prod.cjs --exec \"webpack-dev-server --open --config webpack.dev.cjs\"",
     "build": "webpack --config webpack.prod.cjs",
     "i": "./install-with-types.sh",
-    "watch-jest": "jest --watch *.js"
+    "watch-jest": "jest --watch ./src/*.js"
   },
   "keywords": [],
   "author": "",

@@ -3,8 +3,9 @@
 import capitalize from "./index.js";
 
 describe('capitalize', () => {
-  it('takes a string and capitalize 1st letter', () => {
+  it('exists', () => {
     expect(capitalize).toBeDefined();
   });
+
 });
 
