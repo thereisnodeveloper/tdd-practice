@@ -56,5 +56,8 @@
   },
   "dependencies": {
     "mini-css-extract-plugin": "^2.9.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
