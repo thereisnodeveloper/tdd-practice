@@ -23,8 +23,12 @@ describe('calculator', () => {
   it('contains multiply()', () => {
     expect(calculator).toHaveProperty('multiply');
   });
+  it('contains divide()', () => {
+    expect(calculator).toHaveProperty('divide');
+  });
 });
 
+//functions
 describe('add', () => {
   it('adds 2 numbers', () => {
     expect(calculator.add(1, 2)).toBe(3);
@@ -49,5 +53,14 @@ describe('multiply', () => {
   });
   it('multiplies num1, num2', () => {
     expect(calculator.multiply(44, 2)).toBe(88);
+  });
+});
+
+describe('divide', () => {
+  it('divides num1/num2', () => {
+    expect(calculator.multiply(3, 5)).toBe(15);
+  });
+  it('divides num1/num2', () => {
+    expect(calculator.multiply(40, 3)).toBe(120);
   });
 });
