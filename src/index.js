@@ -1,24 +1,11 @@
-// #region required-template
-import './reset.css';
-import './style.css';
-
-// eslint-disable-next-line no-unused-vars
-const testElement = document.createElement('div');
-// #endregion
-
-// DOM elements
-const domInputs = document.querySelectorAll('input');
-/** @type {Array.<HTMLInputElement>} */
-const [
-  passwordOriginal = document.querySelector('input#password'),
-  passwordToCompare = document.querySelector('input#confirm-password'),
-  email = document.querySelector('input#email'),
-  country = document.querySelector('#country'),
-  zip = document.querySelector('#zip'),
-  form = document.querySelector('form'),
-] = [];
 
 
-export default function capitalize() {
-  
+/**
+ * Capitalizes the first letter of the given string.
+ *
+ * @param {string} string - The input string to be capitalized.
+ * @returns {string} The input string with its first letter capitalized.
+ */
+export default function capitalize(string) {
+  return string.charAt(0).toUpperCase().concat(string.substring(1))
 }
