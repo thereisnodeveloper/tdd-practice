@@ -12,4 +12,10 @@ describe(' takes a string and returns it reversed', () => {
   it('returns reversed string',()=>{
     expect(reverseString('hello')).toBe('olleh')
   })
+
+  
+
+//   it('returns array from string', ()=>{
+//     expect(reverseString('hello')).toBeInstanceOf(Array)
+//   })
 });
