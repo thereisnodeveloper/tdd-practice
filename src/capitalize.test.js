@@ -1,6 +1,6 @@
 /**DISABLED jest-environment jsdom */
 
-import capitalize from './index.js';
+import capitalize from './capitalize.js';
 
 describe('capitalize', () => {
   // takes a string and returns it with the first character capitalized
